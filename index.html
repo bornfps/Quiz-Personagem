@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Qual personagem você seria?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="tela-inicial">
+    <h1>Bem-vindo ao Universo de Harry Potter!</h1>
+    <p>Descubra qual personagem você seria neste universo!</p>
+    <button onclick="iniciarQuiz()">Começar</button>
+  </div>
+
+  <div id="quiz" style="display:none;">
+    <h2 id="pergunta"></h2>
+    <div id="opcoes"></div>
+    <button onclick="proximaPergunta()">Próxima</button>
+  </div>
+
+  <div id="resultado" style="display:none;">
+    <h2>Você é:</h2>
+    <div id="personagem"></div>
+    <button onclick="reiniciar()">Recomeçar</button>
+  </div>
+
+  <footer> Alunos: João Pedro, Arthur Lima, Tiago Alexsander, Caio Victor, Guilherme Do Couto</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
